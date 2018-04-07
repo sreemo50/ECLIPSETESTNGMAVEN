@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Default suite]">
+  <listeners>
+    <listener class-name="Common.TestListeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Defaulttest2(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="Tests.HomeTest">
+        <methods>
+          <include name="Marketplace"/>
+          <include name="Login"/>
+          <include name="ConnectToDeviceOrBrowser"/>
+          <include name="ValueCheking"/>
+        </methods>
+      </class> <!-- Tests.HomeTest -->
+    </classes>
+  </test> <!-- Defaulttest2(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

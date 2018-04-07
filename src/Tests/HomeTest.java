@@ -11,10 +11,10 @@ import Common.AbstractTest;
 import Page.HomePage;
 
 
-public class HomeTests extends AbstractTest {
+public class HomeTest extends AbstractTest {
 
 
-	public HomeTests()
+	public HomeTest()
 	{
 		
 	}

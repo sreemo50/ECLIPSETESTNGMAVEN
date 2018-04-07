@@ -15,8 +15,7 @@ import Common.AbstractPage;
 public class EntryPage extends AbstractPage {
 	public EntryPage(WebDriver driver)
 	{		
-		super(driver);	
-		
+		super(driver);		
 		
 	}
 	

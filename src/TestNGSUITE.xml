@@ -8,14 +8,14 @@
   <!-- <test  name="Defaulttest1" verbose="2">
   <parameter name="browser" value="FireFox"/>
     <classes>
-      <class name="Tests.HomeTests"/>      
+      <class name="Tests.HomeTest"/>      
     </classes>
   </test>  -->
   
   <test  name="Defaulttest2" verbose="2">
   <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="Tests.HomeTests"/>      
+      <class name="Tests.HomeTest"/>      
     </classes>
   </test> <!-- Default test -->  
 </suite> <!-- Default suite -->
