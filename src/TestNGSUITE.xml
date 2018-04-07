@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"> 
+<suite guice-stage="DEVELOPMENT" parallel="none"  name="Default suite">
+
+<listeners>
+<listener class-name="Common.TestListeners"/>
+</listeners>
+  <!-- <test  name="Defaulttest1" verbose="2">
+  <parameter name="browser" value="FireFox"/>
+    <classes>
+      <class name="Tests.HomeTests"/>      
+    </classes>
+  </test>  -->
+  
+  <test  name="Defaulttest2" verbose="2">
+  <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="Tests.HomeTests"/>      
+    </classes>
+  </test> <!-- Default test -->  
+</suite> <!-- Default suite -->
