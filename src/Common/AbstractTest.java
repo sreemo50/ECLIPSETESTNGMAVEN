@@ -2,6 +2,10 @@ package Common;
 
 import PLAZA.PlazaC;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -50,17 +54,22 @@ public abstract class AbstractTest {
 	  plaza=new PLAZASITE(seleniumWebDriver);
   }
 
-  //@BeforeSuite
-  //public void beforeSuite() {
+ /* @BeforeSuite
+  public void beforeSuite() throws IOException {
+	  File fileExcel=new File("");
+	  FileInputStream FIP=new FileInputStream(fileExcel);
 	  
-  //}
-  
+  }
+*/  
  /*@AfterSuite
   public void beforeSuite() {
 	  seleniumWebDriver.quit();
   }
 */ 
  
+  
+  //add data source to each of the test files
+  
   
 
 }

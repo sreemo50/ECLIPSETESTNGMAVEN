@@ -4,6 +4,19 @@
   <listeners>
     <listener class-name="Common.TestListeners"/>
   </listeners>
+  <test thread-count="5" verbose="0" name="Defaulttest1(failed)">
+    <parameter name="browser" value="FireFox"/>
+    <classes>
+      <class name="Tests.HomeTest">
+        <methods>
+          <include name="Marketplace"/>
+          <include name="Login"/>
+          <include name="ConnectToDeviceOrBrowser"/>
+          <include name="ValueCheking"/>
+        </methods>
+      </class> <!-- Tests.HomeTest -->
+    </classes>
+  </test> <!-- Defaulttest1(failed) -->
   <test thread-count="5" verbose="0" name="Defaulttest2(failed)">
     <parameter name="browser" value="Chrome"/>
     <classes>

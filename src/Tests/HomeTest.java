@@ -22,7 +22,7 @@ public class HomeTest extends AbstractTest {
 	@Test(priority=0)
 	public void Login() {
 		plaza.HomeScreen().emailentry("sree2sree02@gmail.com");		
-		plaza.HomeScreen().passcodeentry("123@sreekanth");
+		plaza.HomeScreen().passcodeentry("****");
 		plaza.HomeScreen().clickOnLogin();
 	  }
 	
